@@ -1,12 +1,12 @@
 /**
   * @ngdoc directive
-  * @name remember:icon
+  * @name ng-material-icon:icon
   * @description
-  * Google Material Design Icon set을 사용하여 icon 표현
+  * Create icons using Google's material design icon set
   */
 (function () {
   angular
-    .module('ng-material-icon')
+    .module('deopard.ngMaterialIcon')
     .directive('icon', Icon);
 
   Icon.$inject = ['MaterialIconMap'];
@@ -25,10 +25,13 @@
     function compileFunc (el, attrs, transclude) {
       // Icon's name
       var name = attrs.name;
+
       // Icon's size in number (18/24/36/48)
-      var size = attrs.size;
+      var size = attrs.size || 24;
+
       // Whether icon is active or not. (true|false)
       var isActive = attrs['is-active'] !== 'false';
+
       // Icon's color. (dark|light) default is  'light'
       var color = attrs.color || 'light';
 

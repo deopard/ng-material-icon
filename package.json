@@ -2,7 +2,7 @@
   "name": "ng-material-icon",
   "version": "1.0.0",
   "description": "AngularJS directive to easily use Google's material icons in all browsers.",
-  "main": "src/materialIcon.js",
+  "main": "src/ng-material-icon.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
