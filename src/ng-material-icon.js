@@ -1,3 +1,8 @@
+(function () {
+  angular
+    .module('deopard.ngMaterialIcon', []);
+})();
+
 /**
   * @ngdoc directive
   * @name ng-material-icon:icon

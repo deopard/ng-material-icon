@@ -38,7 +38,7 @@ module.exports = function (grunt) {
           'dist/ng-material-icon.css': 'src/ng-material-icon.css',
           'dist/ng-material-icon.js':  [
             'src/ng-material-icon.js',
-            'src/ng-material-iconMap.js'
+            'src/ng-material-icon-map.js'
           ],
         }
       }
