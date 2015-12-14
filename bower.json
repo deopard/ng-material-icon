@@ -2,7 +2,7 @@
   "name": "ng-material-icon",
   "homepage": "https://github.com/deopard/ng-material-icon",
   "description": "AngularJS directive to easily use Google's material icons in all browsers.",
-  "main": "materialIcon.js",
+  "main": "ng-material-icon.js",
   "moduleType": [],
   "keywords": [
     "AngularJS",

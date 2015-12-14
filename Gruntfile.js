@@ -13,8 +13,8 @@ module.exports = function (grunt) {
         report: 'gzip'
       },
       build: {
-        src: ['src/ngMaterialIcon.js', 'src/ngMaterialIconMap.js'],
-        dest: 'dist/ngMaterialIcon.min.js'
+        src: ['src/ng-material-icon.js', 'src/ng-material-icon-map.js'],
+        dest: 'dist/ng-material-icon.min.js'
       },
     },
 
@@ -24,8 +24,8 @@ module.exports = function (grunt) {
         report: 'gzip'
       },
       minify: {
-        src: 'src/ngMaterialIcon.css',
-        dest: 'dist/ngMaterialIcon.min.css'
+        src: 'src/ng-material-icon.css',
+        dest: 'dist/ng-material-icon.min.css'
       }
     },
 
@@ -35,10 +35,10 @@ module.exports = function (grunt) {
           banner: '<%= banner %>'
         },
         files: {
-          'dist/ngMaterialIcon.css': 'src/ngMaterialIcon.css',
-          'dist/ngMaterialIcon.js':  [
-            'src/ngMaterialIcon.js',
-            'src/ngMaterialIconMap.js'
+          'dist/ng-material-icon.css': 'src/ng-material-icon.css',
+          'dist/ng-material-icon.js':  [
+            'src/ng-material-icon.js',
+            'src/ng-material-iconMap.js'
           ],
         }
       }
